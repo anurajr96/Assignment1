@@ -1,0 +1,145 @@
+/*
+Author : Anuraj
+Date : 08/05/2022
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #333;
+}
+/* Section one start */
+.section1{
+    display: flex;
+    color: #fff;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section1 >div{
+    width: 70%;
+}
+.section1 h2{
+    font-size: 40px;
+    margin: 20px;
+}
+.section1 p{
+    font-size: 24px;
+}
+.section1 .button{
+    margin-top: 40px;   
+}
+.section1 .button a{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 15px;   
+}
+/* Section one end */
+
+/* Section 1.1 start */
+
+.section1-1{
+    display: flex;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #eaeaea;
+    
+}
+.section1-1 div{
+    width: 70%;
+}
+.section1-1 h2{
+    font-size: 30px;
+}
+.section1-1 p{
+    font-size: 22px;
+}
+
+/* Section two start*/
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: 60vh;
+
+}
+.col{
+    width: 30%;
+    color: #000;
+    margin-top: 17px;
+}
+.img-container{
+    background-color: #eaeaea;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.img-container img{
+    border-radius: 10px;
+}
+.img-fluid{
+    width: 100%;
+    height: auto;
+
+}
+.col h5{
+    font-size: 25px;
+}
+.col p{
+    font-size: 20px;
+}
+.footer-container{
+    display: flex;
+    height: 60vh;
+    flex-wrap: wrap;
+    
+    
+}
+.contact-us{
+    display: flex;
+    background-color: rgb(18, 144, 228);
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+    
+}
+.contact-us div{
+    width: 90%;
+}
+.about-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.about-us div{
+    width: 90%;
+}
+
+/* Media query start */
+
+@media only screen and (max-width: 570px) {
+    .section1{
+        height: 100vh;
+       
+    }
+    .col{
+        width: 100%;
+        
+        
+    }
+    .row{
+        
+        height: auto;
+    
+    }
+}
